@@ -1,0 +1,12 @@
+#ifndef _3PLCD_H
+#define _3PLCD_H
+#include <delay.h>
+
+
+#pragma used+
+void command (unsigned char data0);
+void data (unsigned char data0)
+void lcd_init();
+void lcd_blink();
+#pragma used-
+#endif
